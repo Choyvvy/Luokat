@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <title>Tuotteen lisääminen</title>
+</head>
+<body>
+
+    <h1>Opiskelijan tiedot</h1>
+
+    <label for="nimi">Nimi:</label>
+    <input type="text" id="nimi">
+
+    <br><br>
+
+    <label for="ika">Ikä:</label>
+    <input type="text" id="ika">
+
+    <br><br>
+
+    <label for="kurssi">Kurssi:</label>
+    <input type="text" id="kurssi">
+
+    <br><br>
+
+    <label for="arvosana">Arvosana:</label>
+    <select id="arvosana">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+    </select>
+
+    <br><br>
+
+    <button onclick="lisaaOpiskelija()">Lisää opiskelija</button>
+
+    <h2>Opiskelija</h2>
+
+    <div id="tiedot"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
